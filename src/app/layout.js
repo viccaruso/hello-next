@@ -7,7 +7,10 @@ function RootLayout({ children }) {
     <html lang="en">
       <body>
         {children}
-        <footer>Page rendered on {new Date().toLocaleString()}</footer>
+        <footer>
+          Page rendered on {new Date().toLocaleString()} Copyright Vic Caruso
+          2023
+        </footer>
       </body>
     </html>
   );
